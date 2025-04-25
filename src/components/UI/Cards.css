@@ -1,0 +1,53 @@
+
+.hero-container{
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    margin-top: 3rem;
+    /* display: flex; */
+    
+}
+.main-container{
+    width: 230px;
+    height: 350px;
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    margin: 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.575) 0px 14px 28px, rgba(12, 12, 12, 0.644) 0px 10px 10px;
+    border-radius: 0.5rem;
+}
+.poster-container .poster{
+    width: 200px;
+    position: absolute;
+    height: 310px;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.507) 0px 10px 20px, rgba(0, 0, 0, 0.589) 0px 9px 6px;
+}
+.ticket-container{
+    position: absolute;
+    width: 100%;
+    height: 37px;
+    background-color: black;
+    bottom: 0px;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    cursor: pointer;
+}
+.ticket-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .ticket-buy-btn{
+        background-color: transparent;
+        outline: none;
+        border: none;
+        color: gainsboro;
+        cursor: pointer;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
